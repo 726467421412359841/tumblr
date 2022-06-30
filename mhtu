@@ -1,14 +1,7 @@
 
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "//www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html xmlns="//www.w3.org/1999/xhtml" xml:lang="en" lang="en">
- 
-<head>
- 
 <title>{Title}</title>
  
-<link rel="shortcut icon" href="{Favicon}">
- 
-<!--------------------JAVASCRIPTS-------------------->
+<link rel="shortcut icon" href="{icon}">
 <script src="//ajax.googleapis.com/ajax/libs/jquery/1.7/jquery.min.js"></script>
 <script src="//static.tumblr.com/iuw14ew/VSQma1786/jquery.style-my-tooltips.js"></script>
 <script>
@@ -85,8 +78,7 @@ if (june.length > kar) {
 }
 });
 </script>
- 
-<!--------------------COLORS-------------------->
+
 <meta name="color:background" content="#fefefe"/>
  
 <meta name="color:sidebar nav heart" content="#ec5a5a">
@@ -155,12 +147,10 @@ if (june.length > kar) {
 <meta name="if:hide music player" content="0" />
 <meta name="if:dark tumblr controls" content="0" />
  
-<!--------------------IMAGES-------------------->
 <meta name="image:background image" content="//static.tumblr.com/d40eae727a79de74c5b3c4cb5c8e9fd5/2pnwama/mW8pmgswh/tumblr_static_2ddnvvrhh78k4ogc880kokg8c.png"/>
 <meta name="image:sidebar image" content="https://static.tumblr.com/2ea4a1fad481c84fc2ea8d9ef2ac743d/2pnwama/m4Lpmgsh7/tumblr_static_8mbbntkkf7k00swwcgccososw.gif"/>
 <meta name="image:corner image" content="https://static.tumblr.com/fd8db8d5cb0f9311af276d4fb6b9fff9/2pnwama/uB6pmgsol/tumblr_static_6rad1tctxs84w4w48444ookws.gif"/>
- 
-<!--------------------TITLES-------------------->
+
 <meta name="text:top gap" content="60">
 <meta name="text:description title" content="C:\ welcome!">
 <meta name="text:Link 1" content="Sample link 1">
@@ -188,9 +178,7 @@ if (june.length > kar) {
  
 <meta name="text:corner image width" content="120">
 <meta name="text:corner image from bottom" content="60">
- 
-<!-------------------------------------------------------------------->
- 
+
 <style type="text/css">
  
 @font-face { font-family: "pixeloperator bold"; src: url('https://dl.dropbox.com/s/et80cjf7nsftqpo/PixelOperator-Bold.ttf'); }
@@ -201,8 +189,6 @@ if (june.length > kar) {
  
 @font-face { font-family: "consolas-alt"; src: url('https://dl.dropbox.com/s/xap6ylki7bf2vgw/consolas.ttf'); }
  
- 
-/*--------------------TOOLTIPS--------------------*/
 #s-m-t-tooltip {
     padding: 4px 9px;
     margin: 20px;
@@ -216,7 +202,6 @@ if (june.length > kar) {
     max-width: calc({text:post width}px * 1.25);
 }
  
-/*--------------------TUMBLR CONTROLS--------------------*/
 iframe#tumblr_controls, .iframe-controls--desktop {
     top:5px!important;
     right:5px!important;
@@ -234,7 +219,7 @@ iframe#tumblr_controls, .iframe-controls--desktop {
     z-index:999999!important;
 }
  
-/*--------------------SCROLLBAR--------------------*/
+
 ::-webkit-scrollbar {
     width:13px;
     height:13px;
@@ -257,7 +242,6 @@ iframe#tumblr_controls, .iframe-controls--desktop {
     background-color:{color:scrollbar track};
 }
  
-/*--------------------TEXT HIGHLIGHT--------------------*/
 ::selection {
 background: {color:highlight};
 color:{color:highlighted text};
@@ -268,7 +252,6 @@ background: {color:highlight};
 color:{color:highlighted text};
 }
  
-/*--------------------BASICS--------------------*/
 body {
 background:{color:background} url({image:background image});
 background-attachment:fixed;
